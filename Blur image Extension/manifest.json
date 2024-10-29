@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Hello World",
+    "version": "0.0.1",
+    "description": "Hello world extension",
+    "permissions": ["activeTab", "scripting"],
+    "action": {
+        "default_title": "click for Hello World!!",
+        "default_popup": "popup.html"
+    },
+    "content_script": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["script.js"]
+        }
+    ]
+}
