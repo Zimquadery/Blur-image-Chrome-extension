@@ -1,11 +1,11 @@
 {
     "manifest_version": 3,
-    "name": "Hello World",
+    "name": "Blur Image",
     "version": "0.0.1",
-    "description": "Hello world extension",
+    "description": "Blur Image extension",
     "permissions": ["activeTab", "scripting"],
     "action": {
-        "default_title": "click for Hello World!!",
+        "default_title": "click to Blur Image!",
         "default_popup": "popup.html"
     },
     "content_script": [
